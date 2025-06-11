@@ -52,7 +52,7 @@ conn.Open();
 
 😆當連線池到達設定值 50 時，ERP畫面整個當機不能動作。
 
-以下截圖內容的 連線池的數量 要在本機特別設定 `效能管理員` 和 `C#程式碼要使用PerformanceCounterCategory 類別引用方式 (若有興趣我再提供，設定上比較麻煩。)
+以下截圖內容的 連線池的數量 要在本機特別設定 `效能管理員` 和 `C#程式碼要使用PerformanceCounterCategory 類別引用` (若有興趣我再提供，設定上比較麻煩。)
 
 ![image](https://github.com/user-attachments/assets/1a874389-8f22-4f01-a250-f912ed755acb)
 
