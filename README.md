@@ -99,3 +99,16 @@ ORDER BY ConnectionCount DESC
 •	這個 SQL 查詢只能看到 SQL Server 目前所有連線的總數，無法直接反映「你的應用程式的連線池是否滿」。
 •	Max Pool Size 是應用程式端的設定，和 SQL Server 端的連線總數是兩個不同層次的概念。
 
+# 連線數量(截圖)
+
+### 1.ERP 輔具,人資
+
+![image](https://github.com/user-attachments/assets/155db8f4-4bfc-4d55-957f-d9a01009be44)
+
+### 2.口罩ERP
+![image](https://github.com/user-attachments/assets/10184739-53c1-466e-968a-6874de236ee9)
+
+### 出差勤ERP
+![image](https://github.com/user-attachments/assets/0bc4f88d-29b2-49c8-9161-aa33e7a00e9a)
+
+
