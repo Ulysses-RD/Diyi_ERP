@@ -44,13 +44,20 @@ conn.Open();
 
 ```
 
+# 結果內容
+
 出現連線池超過數量 ( 代表連線次數超過上線 )
 
 ![image](https://github.com/user-attachments/assets/b2509f9e-5253-4160-a0e8-895d9366762d)
 
 😆當連線池到達設定值 50 時，ERP畫面整個當機不能動作。
 
+以下截圖內容的 連線池的數量 要在本機特別設定 `效能管理員` 和 `C#程式碼要使用PerformanceCounterCategory 類別引用方式 (若有興趣我再提供，設定上比較麻煩。)
+
 ![image](https://github.com/user-attachments/assets/1a874389-8f22-4f01-a250-f912ed755acb)
+
+參考文件:
+https://learn.microsoft.com/zh-tw/dotnet/api/system.diagnostics.performancecountercategory?view=windowsdesktop-9.0&viewFallbackFrom=dotnet-plat-ext-8.0
 
 ---
 
