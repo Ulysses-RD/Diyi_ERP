@@ -1,8 +1,8 @@
-# Diyi_ERP
+# MSSQL連線池 Pooling 測試
 
 ```xml
   <connectionStrings>
-    <add name="SQLConnectionString_s" connectionString="Data Source=192.168.3.115;Initial Catalog=erp_dbSQL;User ID=diyiuser;Password=Wwjd11246711" providerName="System.Data.SqlClient" />
+    <add name="SQLConnectionString_s" connectionString="Data Source=192.168.3.115;Initial Catalog=erp_dbSQL;User ID=diyiuser;Password=xxxxxxxxx" providerName="System.Data.SqlClient" />
     <add name="SQLConnectionString" connectionString="Server=tcp:xxx.XXX.xxx.x,11433;Initial Catalog=erp_dbSQL;Persist Security Info=False;User ID=xxxxxx;Password=xxxxxxxx;MultipleActiveResultSets=False;Encrypt=true ;TrustServerCertificate=true;Connection Timeout=350;" />
   </connectionStrings>
 ```
@@ -27,7 +27,6 @@
 
 ```xml
     <add name="SQLConnectionString" connectionString="Server=tcp:xxx.XXX.xxx.x,11433;Initial Catalog=erp_dbSQL;Persist Security Info=False;User ID=xxxxxx;Password=xxxxxxxx;MultipleActiveResultSets=False;Encrypt=true ;TrustServerCertificate=true;Connection Timeout=350 Timeout=10 ;Pooling=true;Min Pool Size = 5;Max Pool Size=50;" />;"
-
 
 ```
 
